@@ -1,0 +1,73 @@
+﻿<Window x:Class="Product.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Product"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Canvas>
+        <Label FontSize="30" Content="0.9" Canvas.Left="80" HorizontalAlignment="Left" Height="52" VerticalAlignment="Top" Canvas.Top="122"/>
+        <Button Name="imageColaBtn" Canvas.Top="57" Canvas.Left="143">
+            <Image Height="100" HorizontalAlignment="Left" Name="imageCola" Source="https://us.coca-cola.com/content/dam/nagbrands/us/coke/en/home/coca-cola-original-20oz.png" Canvas.Left="143" Canvas.Top="57"></Image>
+        </Button>
+        <Label Content="Coca-Cola" Canvas.Left="129" Canvas.Top="174" Name="colaLbl"></Label>
+        <Button Content="+" Name="colaPlusBtn" Canvas.Left="198" Canvas.Top="174" HorizontalAlignment="Center" VerticalAlignment="Top" Click="colaPlusBtn_Click"></Button>
+
+        <Label FontSize="30" Content="0.7" Canvas.Left="244" Canvas.Top="124" RenderTransformOrigin="-1.049,2.165" HorizontalAlignment="Center" VerticalAlignment="Top"></Label>
+        <Button Name="imageBreadBtn" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="298" Canvas.Top="57">
+            <Image Height="100" Name="imageBread" Source="https://suebeehomemaker.com/wp-content/uploads/2021/10/sliced-french-bread.jpg" Canvas.Left="297" Canvas.Top="57"></Image>
+        </Button>
+        <Label Content="Bread" Canvas.Left="310" Canvas.Top="174" Name="breadLbl" HorizontalAlignment="Center" VerticalAlignment="Top"></Label>
+        <Button Content="+" Name="breadPlusBtn" Canvas.Left="356" Canvas.Top="174" HorizontalAlignment="Left" VerticalAlignment="Center"></Button>
+
+        <Label FontSize="30" Content="1.8" Canvas.Left="400" Canvas.Top="122"></Label>
+        <Button Name="imageCheeseBtn" Canvas.Left="452" Canvas.Top="57">
+            <Image Height="100" Name="imageCheese" Source="https://cdn.britannica.com/60/217660-050-DBCC409A/cheddar-cheese-wedge.jpg" Canvas.Left="458" Canvas.Top="57" HorizontalAlignment="Left" VerticalAlignment="Center" Width="138"></Image>
+        </Button>
+        <Label Content="Cheese" Canvas.Left="479" Canvas.Top="171" Name="cheeseLbl" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="3.079,2.36"></Label>
+        <Button Content="+" Name="cheesePlusBtn" Canvas.Left="532" Canvas.Top="174" HorizontalAlignment="Left" VerticalAlignment="Center"></Button>
+
+        <Label Content="1.2" FontSize="30" Canvas.Left="592" Canvas.Top="122"></Label>
+        <Button Name="imageTomatoBtn" Canvas.Left="641" Canvas.Top="57">
+            <Image Height="100" Name ="imageTomato" Source="https://m.economictimes.com/thumb/msid-95423731,width-1200,height-900,resizemode-4,imgsize-56196/tomatoes-canva.jpg" Canvas.Left="636" Canvas.Top="48" RenderTransformOrigin="0.511,0.118"></Image>
+        </Button>
+        <Label Content="Tomato" Canvas.Left="678" Canvas.Top="171" Name="tomatoLbl" HorizontalAlignment="Left" VerticalAlignment="Center" RenderTransformOrigin="3.079,2.36"></Label>
+        <Button Content="+" Name="tomatoPlusBtn" Canvas.Left="733" Canvas.Top="177" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
+
+        <Label FontSize="30" Content="2.1" Canvas.Left="75" Canvas.Top="286"></Label>
+        <Button Name="imagePotatoBtn" Canvas.Left="129" Canvas.Top="230">
+            <Image Height="100" Name="imagePotato" Source="https://m.media-amazon.com/images/I/313dtY-LOEL._SX522_.jpg" Canvas.Left="143" Canvas.Top="231"></Image>
+        </Button>
+        <Label Content="Potato" Canvas.Left="149" Canvas.Top="336" Name="potatoLbl" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="3.079,2.36"></Label>
+        <Button Content="+" Name="potatoPlusBtn" Canvas.Left="198" Canvas.Top="341" HorizontalAlignment="Center" VerticalAlignment="Top"></Button>
+
+        <Label FontSize="30" Content="0.4" RenderTransformOrigin="4.332,5.067" Canvas.Left="247" Canvas.Top="286"></Label>
+        <Button Name="imageSirabBtn" Canvas.Left="296" Canvas.Top="231">
+            <Image Height="100" Name="imageSirab" Source="https://bazarstore.az/16221-large_default/sirab-qazli-su-15-l.jpg" Canvas.Left="280" Canvas.Top="231" HorizontalAlignment="Center" VerticalAlignment="Top"></Image>
+        </Button>
+        <Label Content="Sirab" Canvas.Left="310" Canvas.Top="339" Name="sirabLbl" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="3.079,2.36"></Label>
+        <Button Content="+" Name="sirabPlusBtn" Canvas.Left="356" Canvas.Top="342" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
+
+        <Label FontSize="30" Content="0.2" RenderTransformOrigin="2.898,2.517" Canvas.Left="405" Canvas.Top="286" HorizontalAlignment="Center" VerticalAlignment="Top"></Label>
+        <Button Name="imageEggBtn" Canvas.Left="471" Canvas.Top="231">
+            <Image Height="100" Name="imageEgg" Source="https://bakerpedia.com/wp-content/uploads/2020/03/Egg_baking-ingredients-e1584136402126-400x400.jpg" Canvas.Left="479" Canvas.Top="231" HorizontalAlignment="Left" VerticalAlignment="Center"></Image>
+        </Button>
+        <Label Content="Egg" Canvas.Left="497" Canvas.Top="339" Name="eggLbl" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="3.079,2.36"></Label>
+        <Button Content="+" Name="eggPlusBtn" Canvas.Left="543" Canvas.Top="342" HorizontalAlignment="Center" VerticalAlignment="Top"></Button>
+
+        <Label Content="3.7" FontSize="30" Canvas.Left="607" Canvas.Top="284"></Label>
+        <Button Name="imageChickenBtn" Canvas.Left="661" Canvas.Top="230">
+            <Image Height ="100" Name="imageChicken" Source="https://avectime.com/home_kitchen/kitchen_dining/brands/images/related_image/fresh_chicken_meat1.jpg" Canvas.Left="678" Canvas.Top="231" ></Image>
+        </Button>
+        <Label Content="Chicken" Canvas.Left="677" Canvas.Top="336" Name="chickenLbl" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="3.079,2.36"></Label>
+        <Button Content="+" Name="chickenPlusBtn" Canvas.Left="739" Canvas.Top="342" HorizontalAlignment="Left" VerticalAlignment="Top"></Button>
+
+
+        <Button Name="basketbtn" Canvas.Top="206" Canvas.Left="24" >
+            <Image Source="https://www.candyconceptsinc.com/assets/images/Large-Shopping-Baskets-red.jpg" Width="71"></Image>
+        </Button>
+    </Canvas>
+
+
+</Window>
